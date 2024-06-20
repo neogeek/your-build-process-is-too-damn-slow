@@ -3,13 +3,13 @@
 using System.IO;
 using UnityEditor;
 
-public class CreateAssetBundles
+public static class CreateAssetBundles
 {
 
     [MenuItem("Assets/Build AssetBundles")]
-    static void BuildAllAssetBundles()
+    private static void BuildAllAssetBundles()
     {
-        string assetBundleDirectory = "Assets/AssetBundles";
+        var assetBundleDirectory = "Assets/AssetBundles";
 
         if (!Directory.Exists(assetBundleDirectory))
         {

@@ -1,7 +1,10 @@
 ManifestFileVersion: 0
-CRC: 2127120185
+CRC: 3140586145
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: samplescene
+      Dependencies: {}
+    Info_1:
+      Name: prefabs
       Dependencies: {}
