@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2032535162
+CRC: 1771989013
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2cc782691e0cf54285647086d6443d12
+    Hash: 364729466c811bf94b1064de6b07a28a
   TypeTreeHash:
     serializedVersion: 2
     Hash: 93ccb22417dabed66f4b5aa302117f56
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 2cc782691e0cf54285647086d6443d12
+    Hash: 364729466c811bf94b1064de6b07a28a
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -45,4 +45,5 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Scenes/SceneToLoadViaURL.unity
-Dependencies: []
+Dependencies:
+- /Users/scottdoxey/git/github/Your build process is too damn slow/Assets/AssetBundles/StandaloneOSX/prefabs
